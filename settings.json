@@ -1,5 +1,6 @@
 {
     "workbench.colorTheme": "Dracula",
+    "workbench.editor.enablePreview": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "explorer.compactFolders": false,
@@ -17,9 +18,9 @@
     "workbench.iconTheme": "vscode-icons",
     "vsicons.dontShowNewVersionMessage": true,
     "[c]": {
-        "editor.defaultFormatter": "xaver.clang-format"
+        "editor.defaultFormatter": "ms-vscode.cpptools"
     },
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontFamily": "SauceCodePro NFP",
     "terminal.integrated.fontSize": 13,
     "[rust]": {
         "editor.defaultFormatter": "statiolake.vscode-rustfmt"
@@ -27,4 +28,46 @@
     "haskell.manageHLS": "GHCup",
     "haskell.upgradeGHCup": false,
     "editor.fontSize": 12.5,
+    "explorer.confirmDragAndDrop": false,
+    "[haskell]": {
+        "editor.defaultFormatter": "haskell.haskell"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false
+    },
+    "code-runner.runInTerminal": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false,
+        "yaml": true
+    },
+    "cmake.configureOnOpen": false,
+    "rapidapi.terminalLink.enabled": false,
+    "workbench.startupEditor": "none",
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "python.terminal.activateEnvironment": false,
 }
