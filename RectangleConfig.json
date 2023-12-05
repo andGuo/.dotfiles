@@ -52,6 +52,9 @@
     "doubleClickTitleBar" : {
       "int" : 0
     },
+    "doubleClickTitleBarIgnoredApps" : {
+
+    },
     "doubleClickTitleBarRestore" : {
       "int" : 0
     },
@@ -237,11 +240,11 @@
     },
     "firstThird" : {
       "keyCode" : 45,
-      "modifierFlags" : 262144
+      "modifierFlags" : 786432
     },
     "firstTwoThirds" : {
       "keyCode" : 43,
-      "modifierFlags" : 262144
+      "modifierFlags" : 786432
     },
     "larger" : {
       "keyCode" : 24,
@@ -249,11 +252,11 @@
     },
     "lastThird" : {
       "keyCode" : 47,
-      "modifierFlags" : 262144
+      "modifierFlags" : 786432
     },
     "lastTwoThirds" : {
       "keyCode" : 46,
-      "modifierFlags" : 262144
+      "modifierFlags" : 786432
     },
     "leftHalf" : {
       "keyCode" : 0,
@@ -308,5 +311,5 @@
       "modifierFlags" : 917504
     }
   },
-  "version" : "80"
+  "version" : "81"
 }
